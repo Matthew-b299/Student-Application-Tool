@@ -1,1 +1,1 @@
-web:node src/erver/server.js
+web:node src/server/server.js
