@@ -2,7 +2,7 @@
 const express = require('express'); 
 const cors = require('cors');
 //const twilio = require('twilio'); 
-let PORT = process.env.PORT || 4000;
+
 
 const accountSid = 'ACf2aa3b29410724332eed7815327f596c';
 const authToken = 'c919c545554342bfbde9d96162470569'; 
