@@ -1,25 +1,61 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Form from './Form/Form'
+import Quiz from './Service2/quiz'
+import 'firebase/database'
+import Quote from './Service3/quote'
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
-function App() {
+
+  function App (){
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  
+   
+
+    <div>
+    <Router>
+
+    <div>
+    <div className="heading">Student Application Tool</div>
+    </div>
+
+    <Switch>
+     <Route path = "/Quote" component={Quote}/>
+     <Route path = "/Form" component={Form} />
+     <Route path = "/Quiz" component={Quiz} />
+     </Switch>
+
+    <Link to = '/Quote'>
+     Dictonary  
+          </Link>
+
+
+  <Link to = '/Form'>
+   Text
+ </Link>
+
+
+ <Link to = '/Quiz'>
+ 
+   Quiz
+
+
+ </Link>
+    
+    <div className = "footer">
+      
+    </div>
+
+
+<div>
+
+</div>
+</Router>
+
     </div>
   );
 }
+
 
 export default App;

@@ -1,0 +1,28 @@
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 3px solid #FFD;
+    transition: 0.2s ease-out;
+    width: 500px;
+    background-color: rgba(87, 92, 15, 0.8);
+
+}
+
+
+input:focus{
+    background-color: #E4F1FE;
+    color: #111;
+    transition: 0.5s ease-in;
+}
+
+button {
+    padding:10px;
+    font-size:16px;
+    margin:10px;
+    background-color: rgb(255, 238, 0);
+    color:rgb(0, 0, 0);
+    border:2px solid #fbff00;
+}
+
+button:hover {background-color:rgba(229, 255, 0, 0.342)}

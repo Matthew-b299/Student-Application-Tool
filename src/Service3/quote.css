@@ -1,0 +1,25 @@
+
+.box {
+    background: whitesmoke;
+    width: 40%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 25px;
+    padding: 2%;
+    box-shadow: 10px 10px;
+  }
+
+  .button {
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 30%;
+    width: 20%;
+    background-color: #ffffff;
+    border: 1px solid rgba(22, 76, 167, 0.6);
+  }
+    
