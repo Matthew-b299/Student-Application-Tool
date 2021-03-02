@@ -22,9 +22,9 @@ export default function Quiz() {
     {
       question: "What is private cloud?",
       answers: [
-       { option: 'a private computer', isCorrect: true },
+       { option: 'a private computer', isCorrect: false },
        { option: 'Clouds made for people', isCorrect: false },
-       { option: 'Removes control over data and security concerns ', isCorrect: false },
+       { option: 'Removes control over data and security concerns ', isCorrect: true },
        
       ]
 
@@ -33,7 +33,7 @@ export default function Quiz() {
       question: "What is public cloud?",
       answers: [
        { option: 'A cloud in a public space with end points of transmission', isCorrect: true },
-       { option: 'Clouds in the sky '},
+       { option: 'Clouds in the sky ', isCorrect:false},
        { option: 'A place where you store clouds', isCorrect: false },
        
       ]
