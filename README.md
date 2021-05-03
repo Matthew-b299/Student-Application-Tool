@@ -14,5 +14,8 @@ This application uses Firebase Cloud Store to render notes stored by the user to
 The quiz consists of 7 questions about cloud computing. This is a very basic quiz and your score will be displayed once you reach the end. You wil have the option to retake the quiz upon completion.
 
 ## Tech Stack
+* JavaScript
+* HTML
+* CSS
 * React.js
 * Firebase Cloud Store
